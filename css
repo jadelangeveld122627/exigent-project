@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    margin: -5px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: -2px;
+    font-size: 20px
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: 14px 20%;
+}
+
+.nav_links {
+    list-style: none;
+    margin-top: -60px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 0px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: fuchsia;
+}
+
+button {
+    padding: 35%;
+    background-color: fuchsia;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+
+}
+
+button:hover{
+    background-color: fuchsia;
+}
+
+.main src {
+    background: transparent;
+}
